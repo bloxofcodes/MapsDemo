@@ -1,0 +1,30 @@
+<!--<img src="/assets/images/sg-whole.png" alt="sgmap" width="1600" height="1000" style="position:relative;z-index:0px;" />-->
+<!--<img src="/assets/images/sg-map-1.png" alt="map1" width="1600" height="1000" style="position:relative;margin-top:50px;margin-left:300px;z-index:1px;" />-->
+<!--<img src="~/wwwroot/images/tree.png" alt="Tree" width="140" height="100" style="position:relative;margin-top:130px;margin-left:70px;" />-->
+
+<div class="fb-icon">
+
+  <img src="/assets/images/sg-whole.png" alt="sgmap" width="1600" height="1000" />
+  <!--<img class="top" src="/assets/images/sg-map-1-gray.png" alt="map1" width="335" height="348" id="map1">-->
+
+  <img class="map1" alt="map1" width="335" height="348" [src]="imgMap1"
+       (mouseover)="imgMap1 = '/assets/images/sg-map-1.png'"
+       (mouseout)="imgMap1 = '/assets/images/sg-map-1-gray.png'">
+
+  <img class="map2" alt="map2" width="125" height="115" [src]="imgMap2"
+       (mouseover)="imgMap2 = '/assets/images/sg-map-2.png'"
+       (mouseout)="imgMap2 = '/assets/images/sg-map-2-gray.png'">
+
+  <!--LOCATION PIN-->
+  <!--<img alt="pin1" style="position:absolute;left:314px;top:134px;z-index: 1;" width="50" height="50" [src]="pin1">-->
+
+  <div class="circle" style="top: 534px; left: 714px;z-index: 2;"></div>
+  <div class="circle" style="top: 534px; left: 914px;z-index: 2;"></div>
+  <div class="circle-green" style="top: 234px; left: 314px;z-index: 2;"></div>
+  <div class="circle-green" style="top: 334px; left: 314px;z-index: 2;"></div>
+  <div class="circle-green" style="top: 234px; left: 414px;z-index: 2;"></div>
+  <div class="circle-green" style="top: 234px; left: 514px;z-index: 2;"></div>
+
+</div>
+
+
