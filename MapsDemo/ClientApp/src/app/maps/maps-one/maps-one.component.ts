@@ -1,6 +1,7 @@
 import { AfterViewInit, Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 
+
 @Component({
   selector: 'app-maps-one',
   templateUrl: './maps-one.component.html',
@@ -15,8 +16,8 @@ export class MapsOneComponent implements AfterViewInit {
   pin1: string = "/assets/images/pin.png";
 
   ngAfterViewInit() {
-
-
+    console.log(window.innerWidth);
+    console.log(window.innerHeight);
   }
 
 

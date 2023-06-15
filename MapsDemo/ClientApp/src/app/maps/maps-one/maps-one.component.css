@@ -1,14 +1,14 @@
 .map1 {
   position: absolute;
-  left: 135px;
-  top: 192px;
+  left: 138px;
+  top: 138px;
   z-index: 1;
 }
 
 .map2 {
   position: absolute;
-  left: 314px;
-  top: 134px;
+  left: 318px;
+  top: 82px;
   z-index: 1;
 }
 
